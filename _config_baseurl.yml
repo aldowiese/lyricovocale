@@ -1,0 +1,4 @@
+# If you want to serve the page in another directory different than the webroot
+# directory, set your baseurl path here and tell jekyll to use BOTH config files
+# like --config _config.yml,_config_baseurl.yml
+baseurl: "/lyrico"
