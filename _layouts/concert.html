@@ -1,0 +1,20 @@
+---
+layout: default_box
+---
+
+<div class="w3-row">
+	<div class="w3-container w3-padding-large w3-col l9">
+		<p><b>{{page.title}}</b></p>
+		<div class="w3-row w3-padding-16 w3-border-bottom">
+			<div class="w3-col l4 w3-container"><i class="fa fa-calendar" aria-hidden="true"></i> {{page.realdate}}</div>
+			<div class="w3-col l4 w3-container"><i class="fa fa-clock-o" aria-hidden="true"></i> {{page.time}}</div>
+			<div class="w3-col l4 w3-container"><i class="fa fa-map-marker" aria-hidden="true"></i> {{page.place}}</div>
+		</div>
+		<div class="w3-container w3-padding-16">
+			{{page.content}}
+		</div>
+	</div>
+	<div class="w3-container w3-col l3">
+		<img src="{{site.baseurl}}/img/{{page.picture}}" class="w3-image w3-padding-16">
+	</div>
+</div>
