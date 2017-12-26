@@ -2,7 +2,7 @@ Der Chor Lyrico Vocale kann mittlerweile auf eine 30-jährige Geschichte zurück
 wurde im Jahre 1979 von Lydia Ulrich-Riedl als Kinderchor gegründet, dem ein
 Schülerchor und der Jugendchor Oberdorfen folgten. Da die ältesten Chormitglieder das
 Jugendalter inzwischen überschritten hatten, war dies Grund genug, im Jahre 2001 dem
-Jugendchot Oberdorfen einen neuen Namen zu verleihen. Der Chor Lyrico Vocale war
+Jugendchor Oberdorfen einen neuen Namen zu verleihen. Der Chor LyricoVocale war
 geboren.
 Highlights in der Geschichte des Chors waren unter anderem der Choraustausch mit den
 Städten Buchloe in Bayern und Leipzig in Sachsen in den Jahren 1991 und 1992, sowie ein

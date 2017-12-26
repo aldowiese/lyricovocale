@@ -2,27 +2,24 @@
 layout: default
 ---
 
-<div id="body" class="w3-container">
-	<p class="w3-opacity"><b>Konzerte</b></p>
-	{% for post in site.posts %}
-	<div class="w3-panel w3-light-grey w3-card">
-		<div class="w3-row">
-			<div class="w3-container w3-padding-large w3-col l9">
-					<p><b>{{post.title}}</b></p>
-					<div class="w3-row w3-padding-16 w3-border-bottom">
-						<div class="w3-col l4 w3-container"><i class="fa fa-calendar" aria-hidden="true"></i> {{post.realdate}}</div>
-						<div class="w3-col l4 w3-container"><i class="fa fa-clock-o" aria-hidden="true"></i> {{post.time}}</div>
-						<div class="w3-col l4 w3-container"><i class="fa fa-map-marker" aria-hidden="true"></i> {{post.place}}</div>
-					</div>
-					<div class="w3-container w3-padding-16">
-					{{post.content}}
-					</div>
-			</div>
-			<div class="w3-container w3-col l3">
-				<img src="img/{{post.picture}}" class="w3-image w3-padding-16">
-			</div>
+<p class="w3-opacity"><b>Konzerte</b></p>
+{% for post in site.posts %}
+<div>
+	<div class="w3-row w3-border-bottom">
+		<div class="w3-container w3-padding-large w3-col l9">
+				<p><b>{{post.title}}</b></p>
+				<div class="w3-row w3-padding-16 w3-border-bottom">
+					<div class="w3-col l4 w3-container"><i class="fa fa-calendar" aria-hidden="true"></i> {{post.realdate}}</div>
+					<div class="w3-col l4 w3-container"><i class="fa fa-clock-o" aria-hidden="true"></i> {{post.time}}</div>
+					<div class="w3-col l4 w3-container"><i class="fa fa-map-marker" aria-hidden="true"></i> {{post.place}}</div>
+				</div>
+				<div class="w3-container w3-padding-16">
+				{{post.content}}
+				</div>
+		</div>
+		<div class="w3-container w3-col l3">
+			<img src="img/{{post.picture}}" class="w3-image w3-padding-16">
 		</div>
 	</div>
-	{% endfor %}
 </div>
-
+{% endfor %}

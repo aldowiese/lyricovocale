@@ -1,5 +1,5 @@
 ---
-layout: default_box
+layout: default
 ---
 
 ##### Impressum:
